@@ -6,6 +6,7 @@ highestleague has all null values, will drop
 idk what story is with unnames:0? need to research. 
 Solution: https://stackoverflow.com/questions/36519086/how-to-get-rid-of-unnamed-0-column-in-a-pandas-dataframe-read-in-from-csv-fil
 
+Update: ...solution actually not relevant, that is for saving file to csv, not opening. Can just drop columns when doing cleaning
 League and Degreee have some large gaps, prolly represent non-competitive gamers
 
 Concerning to see 650 missing values for social phobia, but at least no blanks for anxiety and life satisfaction
