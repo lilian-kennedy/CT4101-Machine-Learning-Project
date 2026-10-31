@@ -15,3 +15,9 @@ total missing cells: 21709
 
 Need to figure out how to deal with number gaps? Maybe impute? What about categorical gaps?
 Will need to clean league, way to automate?
+Research:
+https://www.codebegun.com/learn/data-analytics/data-cleaning/standardizing-text-data
+https://towardsdatascience.com/5-methods-for-filtering-strings-with-python-pandas-ebe4746dcc74/
+https://stackoverflow.com/questions/39724182/pandas-and-apply-function-to-match-a-string
+https://stackoverflow.com/questions/11350770/filter-pandas-dataframe-by-substring-criteria
+https://stackoverflow.com/questions/67228468/pandas-dataframe-column-value-conversion-from-string-to-binary
