@@ -26,3 +26,8 @@ NEED TO FIX:
 Some user responses contain multi rank data ("Diamond 3 last season, placements currently")
 Current function will only see "diamond" and will treat it as a high rank.
 What if user input contains both past and present rank?
+
+Data-preprocessing clean up:
+1. create target var
+2. clean data
+3. drop unused cols
