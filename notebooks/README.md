@@ -31,3 +31,10 @@ Data-preprocessing clean up:
 1. create target var
 2. clean data
 3. drop unused cols
+
+Data Split Plan:
+Everything except LeagueBinary x=feature
+target y = League_Binary
+prolly do clasic 80/20
+Will need to statify since classes are not balanced (58:42)
+Absolute baseline will be DummyClassifier as planned in last checkpoint
