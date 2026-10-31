@@ -21,3 +21,8 @@ https://towardsdatascience.com/5-methods-for-filtering-strings-with-python-panda
 https://stackoverflow.com/questions/39724182/pandas-and-apply-function-to-match-a-string
 https://stackoverflow.com/questions/11350770/filter-pandas-dataframe-by-substring-criteria
 https://stackoverflow.com/questions/67228468/pandas-dataframe-column-value-conversion-from-string-to-binary
+
+NEED TO FIX:
+Some user responses contain multi rank data ("Diamond 3 last season, placements currently")
+Current function will only see "diamond" and will treat it as a high rank.
+What if user input contains both past and present rank?
