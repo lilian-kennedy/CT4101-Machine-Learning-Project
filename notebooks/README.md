@@ -38,3 +38,16 @@ target y = League_Binary
 prolly do clasic 80/20
 Will need to statify since classes are not balanced (58:42)
 Absolute baseline will be DummyClassifier as planned in last checkpoint
+
+What model?
+reddit comment: https://www.reddit.com/r/MLQuestions/comments/s36g2q/how_to_choose_a_machine_learning_model/
+```
+You want to start by defining the problem. Is it regression / classification / clustering? What kind of data do you have - all numerical, some categorical?
+
+Then identify the metric you want to judge your model by, and just try out a few models and measure that metric. Generally, you'll find that a few models just do reasonably well straight away and some don't. Narrow down your search to the highest scoring models. They're likely the ones suited to your problem
+```
+
+Tabular data
+
+https://scikit-learn.org/stable/machine_learning_map.html
+SVG first?
