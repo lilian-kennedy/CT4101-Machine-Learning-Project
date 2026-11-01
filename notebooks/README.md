@@ -1,3 +1,61 @@
+# Milestone 2: Using Psychological Factors to Predict League of Legends Player Rank
+ 
+**Student ID:** 23392966  
+**GitHub Repository:** [https://github.com/lilian-kennedy/CT4101-Machine-Learning-Project](https://github.com/lilian-kennedy/CT4101-Machine-Learning-Project)
+
+---
+
+## 1. Project Structure
+```text
+├── data/
+│   └── GamingStudy_data.csv    # Raw dataset (not tracked if restricted by licence)
+├── notebooks/
+│   └── milestone2_baseline.ipynb  # Milestone 2 Notebook
+├── README.md                   # Project overview & instructions
+└── requirements.txt            # Package dependencies
+```
+
+---
+
+## 2. Setup & Run Instructions
+Unzip the Submission File
+```
+# Windows cmdlet
+Expand-Archive -Path "C:\path\to\file.zip" -DestinationPath "C:\path\to\destination"
+
+# Unix-Based System
+unzip filename.zip -d /path/to/destination
+```
+
+Enter directory of folder
+```
+cd -d /path/to/destination
+
+```
+
+Create Virtual Environment
+```
+# Unix Based system
+python3 -m venv venv
+source venv/bin/activate
+
+# Windows
+python -m venv venv
+.\venv\Scripts\activate
+```
+
+Download the dependencies
+```
+pip install -r requirements.txt
+```
+
+Run the NoteBook
+```
+jupyter notebook
+```
+
+In Notebook, select kernel and click "Run All"
+
 Personal Notes:
 
 When setting up the environment, needed to connect venv directly using excecutable path. Before submitting run on spare computer to check this isn't a common issue
