@@ -56,56 +56,24 @@ jupyter notebook
 
 In Notebook, select kernel and click "Run All"
 
-Personal Notes:
+## 3. Assistance Declaration:
+For this assignment, my main source of assistance was W3schools
+https://www.w3schools.com/python/numpy/default.asp
+https://www.w3schools.com/python/pandas/default.asp
+https://www.w3schools.com/python/python_ml_getting_started.asp
 
-When setting up the environment, needed to connect venv directly using excecutable path. Before submitting run on spare computer to check this isn't a common issue
+I also found GeeksForGeeks an incredibly helpful source for learning model building using scikit
+https://www.geeksforgeeks.org/machine-learning/learning-model-building-scikit-learn-python-machine-learning-library/
 
-highestleague has all null values, will drop
-idk what story is with unnames:0? need to research. 
-Solution: https://stackoverflow.com/questions/36519086/how-to-get-rid-of-unnamed-0-column-in-a-pandas-dataframe-read-in-from-csv-fil
-
-Update: ...solution actually not relevant, that is for saving file to csv, not opening. Can just drop columns when doing cleaning
-League and Degreee have some large gaps, prolly represent non-competitive gamers
-
-Concerning to see 650 missing values for social phobia, but at least no blanks for anxiety and life satisfaction
-
-total missing cells: 21709
-
-Need to figure out how to deal with number gaps? Maybe impute? What about categorical gaps?
-Will need to clean league, way to automate?
-Research:
+These sources were used to help me build the league to binary mapping function:
 https://www.codebegun.com/learn/data-analytics/data-cleaning/standardizing-text-data
 https://towardsdatascience.com/5-methods-for-filtering-strings-with-python-pandas-ebe4746dcc74/
 https://stackoverflow.com/questions/39724182/pandas-and-apply-function-to-match-a-string
 https://stackoverflow.com/questions/11350770/filter-pandas-dataframe-by-substring-criteria
 https://stackoverflow.com/questions/67228468/pandas-dataframe-column-value-conversion-from-string-to-binary
 
-NEED TO FIX:
-Some user responses contain multi rank data ("Diamond 3 last season, placements currently")
-Current function will only see "diamond" and will treat it as a high rank.
-What if user input contains both past and present rank?
+AI usage was in the form of google search AI overview. When writing up the setup instrictions, I googled `windows vs linux unzip .zip file`. Google outputted an AI overview as well as normal search results which I used to get the unzip command for Windows.
 
-Data-preprocessing clean up:
-1. create target var
-2. clean data
-3. drop unused cols
-
-Data Split Plan:
-Everything except LeagueBinary x=feature
-target y = League_Binary
-prolly do clasic 80/20
-Will need to statify since classes are not balanced (58:42)
-Absolute baseline will be DummyClassifier as planned in last checkpoint
-
-What model?
-reddit comment: https://www.reddit.com/r/MLQuestions/comments/s36g2q/how_to_choose_a_machine_learning_model/
-```
-You want to start by defining the problem. Is it regression / classification / clustering? What kind of data do you have - all numerical, some categorical?
-
-Then identify the metric you want to judge your model by, and just try out a few models and measure that metric. Generally, you'll find that a few models just do reasonably well straight away and some don't. Narrow down your search to the highest scoring models. They're likely the ones suited to your problem
-```
-
-Tabular data
-
+Sources for Milestone 3:
+https://www.reddit.com/r/MLQuestions/comments/s36g2q/how_to_choose_a_machine_learning_model/
 https://scikit-learn.org/stable/machine_learning_map.html
-SVG first?
