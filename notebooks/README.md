@@ -77,3 +77,14 @@ AI usage was in the form of google search AI overview. When writing up the setup
 Sources for Milestone 3:
 https://www.reddit.com/r/MLQuestions/comments/s36g2q/how_to_choose_a_machine_learning_model/
 https://scikit-learn.org/stable/machine_learning_map.html
+
+# Milestone 3 Rough Work
+Need to mention that folder format template was taken from adapted from AI too.
+
+Models: SVC, KNN
+
+svc: global linear boundry
+KNN: does local pattern help? NEED TO SCALE
+
+Need to try capture non-linear patterns. Research models non-linear
+
