@@ -88,3 +88,6 @@ KNN: does local pattern help? NEED TO SCALE
 
 Need to try capture non-linear patterns. Research models non-linear
 
+DecisionTreeClassifier?
+https://medium.com/data-science/decision-tree-classifier-explained-a-visual-guide-with-code-examples-for-beginners-7c863f06a71e
+https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html#sklearn.tree.DecisionTreeClassifier
